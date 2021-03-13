@@ -1,0 +1,32 @@
+@import "_header", "_nullstyle";
+
+$my-grey: #ccc;
+
+body {
+    font-size: 20px;
+    div {
+        font-size: 10px;
+    }
+    p {
+        font-style: italic;
+        color: $my-grey;
+    }
+}
+
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+input {
+    border: 1px solid gray;
+    background: white;
+  
+    &[type=text] { color: black; }
+    & .some_class { display: none; }
+  }
+
